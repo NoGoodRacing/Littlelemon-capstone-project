@@ -6,6 +6,6 @@ from . import views
 urlpatterns = [
     path('', views.index, name='index'),
     path('api-token-auth/', obtain_auth_token),
-    path('items/', views.MenuItemsView.as_view()),
-    path('items/<int:pk>', views.SingleMenuItemView.as_view()),
+    path('menu-items/', views.MenuItemsView.as_view(), name='menu-items'),
+    path('menu-items/<int:pk>', views.SingleMenuItemView.as_view()),
 ]
