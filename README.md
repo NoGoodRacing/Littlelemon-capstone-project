@@ -2,16 +2,7 @@
 
 <h2>API Endpoints</h2>
 
-<h3>Credentials</h3>
-
-#### Adminuser
-- Login: admindjango
-- Password: employee@123!
-
-#### Testuser
-- Username: testuser
-- Password: 12345lemon
-- Token for testuser: 1f92f268aa896cd7570bcc993ef339c5dcf10ca6
+Don't forget change settings for your mysql db, and create superuser.
 
 <h3>Test with Insomnia</h3>
 
@@ -31,5 +22,3 @@
 Run command:
 
     python manage.py test
-
-Don't forget change settings for your mysql db.
