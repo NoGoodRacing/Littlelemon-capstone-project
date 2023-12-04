@@ -31,3 +31,5 @@
 Run command:
 
     python manage.py test
+
+Don't forget change settings for your mysql db.
